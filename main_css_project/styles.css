@@ -5,13 +5,13 @@
 }
 
 @font-face {
-  font-family: "Roboto";
+  font-family: "Roboto-Bold";
   src: url(fonts/Roboto-Bold.ttf) format("truetype");
   font-weight: bold;
 }
 
 @font-face {
-  font-family: "Roboto";
+  font-family: "Roboto-Black";
   src: url(fonts/Roboto-Black.ttf) format("truetype");
   font-weight: bolder;
 }
@@ -23,17 +23,67 @@
 }
 
 nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 5vh;
+  background-color: aquamarine;
+  width: 100vw;
+}
+
+nav, .hero-section {
   background-color: aquamarine;
 }
 
+section {
+  padding: 4rem;
+}
+
 h1 {
-  font-family: "Roboto";
-  font-weight: normal  ;
+  font-family: "Roboto-Black";
+  font-weight: normal;
+  font-size: 48px ;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  width: 8rem;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  border: 0;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
 }
 
 .hero-section {
-  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
 }
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.album-art-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.album-art-container img {
+  width: 15vw;
+}
+
+
 
 .image-section {
   background-color: coral;
