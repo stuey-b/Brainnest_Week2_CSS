@@ -1,0 +1,21 @@
+h1 {
+  color: seagreen;
+}
+
+h2 {
+  color: #3399FF;
+}
+
+h3 {
+  color:rgb(255, 51, 255);
+}
+
+h4 {
+  color: rgba(60, 25, 170, 1);
+}
+
+div {
+  background-color:#f9dcc4;
+  height: 100vh;
+  text-align: center;
+}

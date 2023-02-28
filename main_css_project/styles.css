@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(fonts/Roboto-Regular.ttf) format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(fonts/Roboto-Bold.ttf) format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(fonts/Roboto-Black.ttf) format("truetype");
+  font-weight: bolder;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: aquamarine;
+}
+
+h1 {
+  font-family: "Roboto";
+  font-weight: normal  ;
+}
+
+.hero-section {
+  background-color: blue;
+}
+
+.image-section {
+  background-color: coral;
+}
+
+.quote-section {
+  background-color: blueviolet;
+}
+
+.CTA-section {
+  background-color: yellow;
+}
+
+.footer-section {
+  background-color: crimson;
+}
