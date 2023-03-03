@@ -18,6 +18,10 @@
   color: #ffffff;
 }
 
+h1, button, nav, footer {
+  color: #ffffff;
+}
+
 nav {
   display: flex;
   justify-content: space-around;
@@ -25,12 +29,15 @@ nav {
   height: 10vh;
   width: 100vw;
   position: absolute;
-  font-family: 'Amatic SC', cursive;
-  font-weight: 700;
+  font-family: 'Amatic SC', sans-serif;
+  font-weight: bold;
   font-size: 2rem;
 }
 
-section {
+section, footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 4rem;
 }
 
@@ -41,7 +48,7 @@ h1 {
 
 h2 {
 font-size: 3rem;
-font-family: 'Amatic SC', cursive;
+font-family: 'Amatic SC', sans-serif;
 }
 
 button {
@@ -57,7 +64,6 @@ button {
 .hero-section {
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./images/water2.png');
   background-size: cover;
-  display: flex;
   justify-content: center;
   align-items: center;
   gap: 4rem;
@@ -79,22 +85,21 @@ button {
   flex-direction: column;
   gap: 1.5rem;
   width: 50%;
+  padding: 4rem;
 }
 
-.hero-right {
+/* .hero-right {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .hero-right img {
   border: 10px solid #ffffff;
   border-radius: 1rem;
-  max-width: 100%;
 }
 
 .image-section {
-  display: flex;
   flex-direction: column;
   gap: 4rem;
   color: #ffffff;
@@ -102,20 +107,19 @@ button {
   background-color: #1F2937;
   text-align: center;
   font-family: 'Amatic SC', cursive;
-  font-size: 1.5rem;
-
+  font-size: 1.7rem;
 }
 
 .album-art-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-around; 
 }
 
 .album-art-container img {
-  width: 12rem;
+  width: 200px;
   border: 0.5rem solid #ffffff;
   border-radius: 1rem;
-  
+  gap: 4rem;
 }
 
 .album-art-container div {
@@ -125,9 +129,32 @@ button {
 }
 
 .quote-section {
-  background-color: blue;
-  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+  height: 33vh;
+  color: #1F2937;
+  font-family: "Roboto";
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
 }
+
+.quote-section p {
+  color: #1F2937;
+}
+
+.quote-inner, .CTA-inner, .album-art-container {
+  width: 75%;
+}
+
+#quote-name {
+  text-align: end;
+  font-weight: bold;
+  font-style: normal;
+}
+
 
 .CTA-section {
   display: flex;
@@ -138,19 +165,18 @@ button {
 }
 
 .CTA-inner {
-  background-color: blue;
+  background-color: #3882F6;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1rem;
   padding: 2rem;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
 }
 
 .footer-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: #1F2937;
   height: 10vh;
+  font-family: "Roboto";
+
 }
